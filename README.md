@@ -1,2 +1,8 @@
 # Data-Structures-and-Algo-DSA-Supreme
-We will provide Data Structures and Algorithms Notes in C++. Also provide you Debug and Homework Solutions along with important question with proper explaination.
+✍ Data Structures and Algorithms Notes in C++.<br>
+✍ Debug and Homework Solutions along with proper explaination. <br>
+✍ Classwork Solutions with proper comments.
+✍ Lecture Slides with annotattions and Codes provided by Love Babbar Bhaiya.
+✍ Important Question.
+<hr>
+If you like ✨ it. You can star 🌟🌟 the repo for future access and help.
