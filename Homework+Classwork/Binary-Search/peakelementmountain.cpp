@@ -7,10 +7,10 @@ int peakElement(vector<int>arr) {
     int mid= start + (end-start)/2;
     while(start<end) {
         if(arr[mid]<arr[mid+1]) {
-            start=mid+1;
+            start=mid+1; // as first element is smaller than its next element we need not to search in left
         }
         else if(arr[mid]>arr[mid+1]) {
-            end = mid;
+            end = mid; //because the it could be the peak element doing end=mid-1 will loose the peak element 
         }
         mid= start + (end-start)/2;
     }

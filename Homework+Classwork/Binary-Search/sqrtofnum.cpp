@@ -2,19 +2,19 @@
 using namespace std;
 
 int findsqrt(int num) {
-    int start=0, end=num;
-    int mid = start + (end-start)/2;
+    int start=0, end=num; // the sqrt of any numbers lies between 0 and that particular no which is in sorted
+    int mid = start + (end-start)/2; // order and also said to be search space
     int ans = -1;
     while(start<=end) {
         if(mid*mid==num) {
             return mid;
         }
-        else if(mid*mid>num) {
+        else if(mid*mid>num) { //if product is big search in left 
             end=mid-1;
         }
-        else if(mid*mid<num) {
-            ans=mid;
-            start=mid+1;
+        else if(mid*mid<num) { //if product is smaller than required number store that number bcz that no 
+            ans=mid;           // could be nearest sqrt root to check any other product is less than that 
+            start=mid+1;      // given no we will move to right.
         }
         mid = start + (end-start)/2;
     }
