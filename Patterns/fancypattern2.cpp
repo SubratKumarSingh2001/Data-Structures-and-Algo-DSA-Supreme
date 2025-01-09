@@ -31,7 +31,7 @@ int main() {
     // lower numeric part 
     for(int row=0; row<rowCount; row++) {
         for(int num=0; num<rowCount-row; num++){
-             cout<<rowCount-row;
+            cout<<rowCount-row;
             if(num!=rowCount-row-1){
                  cout<<"*";
             }
